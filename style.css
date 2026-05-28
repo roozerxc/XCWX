@@ -1,0 +1,74 @@
+/*
+
+    XCWX (RoozerXC Web eXperience)
+
+    style.css | May 28th, 2026
+
+    ----------------------------------
+
+    Background color is #000000
+    Accent/fgd color is #0000ff
+
+*/
+
+/* ----- Custom Scrollbar Color ----- */
+
+::-webkit-scrollbar {
+  background:          #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background:          #0000ff;
+}
+
+/* ----------- Link Color ----------- */
+
+a, a:link, a:visited, a:hover, a:active {
+    color:             #0000ff;
+}
+
+/* ------- General HTML stuff ------- */
+
+html, body {
+    height:            100%;
+    padding:           0;
+    margin:            0;
+    overflow:          hidden;
+    scrollbar-color:   #0000ff #000000;
+    image-rendering:   pixelated;
+}
+
+iframe {
+    width:             100%;
+    height:            100%;
+    border:            none;
+    display:           block;
+    background-color:  #000000;
+}
+
+/* -------- Scrollbar Gutter -------- */
+
+.element-class {
+   scrollbar-gutter:   stable both-edges;
+}
+
+/* ---------- Div elements ---------- */
+
+.xcwx_engine {
+    display:           flex;
+    height:            100%;
+    overflow:          hidden;
+}
+
+.xcwx_sidebar {
+    width:             240px;
+    min-width:         240px;
+    background-color:  #000000;
+}
+
+.xcwx_content {
+    flex:              1;
+    flex-grow:         1;
+    min-width:         0;
+    overflow:          hidden;
+}

@@ -1,0 +1,135 @@
+/*
+
+    XCWX (RoozerXC Web eXperience)
+
+    style.css | May 28th, 2026
+
+    ----------------------------------
+
+    Background color is #000000
+    Accent/fgd color is #0000ff
+
+*/
+
+/* ------------------- Lucie Cons ------------------- */
+
+@font-face {
+    font-family: "Lucida Console", monospace;
+    src: local("Lucida Console"),
+         url("/assets/fonts/lucon.eot"),
+         url("/assets/fonts/lucon.eot#iefix") format('embedded-opentype'),
+         url("/assets/fonts/lucon.ttf") format("truetype"),
+         url("/assets/fonts/lucon.woff") format("woff"),
+         url("/assets/fonts/lucon.woff2") format("woff2");
+}
+
+/* ------------- Custom Scrollbar Color ------------- */
+
+::-webkit-scrollbar {
+  background:               #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background:               #0000ff;
+}
+
+/* ------------------- Link Color ------------------- */
+
+a, a:link, a:visited, a:hover, a:active {
+    color:                  #0000ff;
+}
+
+/* --------------- General HTML stuff --------------- */
+
+html {
+    overflow-x:             hidden;
+    overflow-y:             scroll;
+}
+
+html, body {
+    color:                  #ffffff;
+    scrollbar-color:        #0000ff #000000;
+    image-rendering:        pixelated;
+}
+
+/* ------------- Overlay Fx. (Optional) ------------- */
+
+body::before {
+    content:                '';
+    position:               fixed;
+    top:                    0;
+    left:                   0;
+    width:                  100vw;
+    height:                 100vh;
+    background-image:       url("../assets/xcwx-ovr.png");
+    background-blend-mode:  multiply;
+    background-repeat:      no-repeat;
+    background-size:        100% 100%;
+    pointer-events:         none;
+    z-index:                9999;
+}
+
+/* ------------- Actual Body & Contents ------------- */
+
+body {
+    font-family:            "Lucida Console", monospace;
+    font-size:              13px;
+    color:                  #ffffff;
+
+    background:             #000000;
+    background-image:       url("../assets/xcwx-bgc.gif");
+    background-repeat:      no-repeat;
+    background-color:       rgba(0, 0, 0, 0.75);
+    background-blend-mode:  darken;
+    background-attachment:  fixed;
+    background-size:        cover;
+
+    margin:                 0;
+    padding:                0;
+    margin-left:            auto;
+    margin-right:           auto;
+
+    display:                block;
+    float:                  none;
+    width:                  640px;
+    height:                 100%;
+}
+
+/* ---- Why'd You Leave the Keys Upon the Table? ---- */
+
+table {
+    border-collapse:        collapse;
+    width:                  100%;
+}
+
+td, th, tr {
+    border:                 1px solid #0000ff;
+    background-color:       #000020;
+    text-align:             left;
+    font-size:              13px;
+    padding:                8px;
+}
+
+hr {
+    height:                 1px;
+    border:                 none;
+    background-color:       #0000ff;
+    color:                  #0000ff;
+}
+
+/* ---------------- Scrollbar Gutter ---------------- */
+
+.element-class {
+    scrollbar-gutter:       stable both-edges;
+}
+
+/* ---------- Discord-like "SPOILER" hover ---------- */
+
+.spoiler {
+    background-color:       #0000ff;
+    color:                  #0000ff;
+}
+
+.spoiler:hover {
+    color:                  #ffffff;
+}

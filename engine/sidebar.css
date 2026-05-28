@@ -1,0 +1,90 @@
+/*
+
+    XCWX (RoozerXC Web eXperience)
+
+    sidebar.css | May 28th, 2026
+
+    ----------------------------------
+
+    Background color is #000000
+    Accent/fgd color is #0000ff
+
+*/
+
+/* ------------------- Lucie Cons ------------------- */
+
+@font-face {
+    font-family: "Lucida Console", monospace;
+    src: local("Lucida Console"),
+         url("/assets/fonts/lucon.eot"),
+         url("/assets/fonts/lucon.eot#iefix") format('embedded-opentype'),
+         url("/assets/fonts/lucon.ttf") format("truetype"),
+         url("/assets/fonts/lucon.woff") format("woff"),
+         url("/assets/fonts/lucon.woff2") format("woff2");
+}
+
+/* ------------- Custom Scrollbar Color ------------- */
+
+::-webkit-scrollbar {
+  background:               #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background:               #0000ff;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color:                  #0000ff;
+    text-decoration:        none;
+}
+
+/* ------------------- Link Color ------------------- */
+
+.element-class {
+   scrollbar-gutter:        stable both-edges;
+}
+
+/* --------------- General HTML stuff --------------- */
+
+html, body {
+    color:                  #ffffff;
+    font-family:            "Lucida Console", monospace;
+    text-shadow:            1px 1px 10px #0000ff;
+    font-size:              13px;
+
+    background:             #000000;
+    background-image:       url("../assets/xcwx-bgs.gif");
+    background-color:       rgba(0, 0, 0, 0.25);
+    background-blend-mode:  darken;
+    background-attachment:  fixed;
+
+    scrollbar-color:        #0000ff #000000;
+    image-rendering:        pixelated;
+
+    margin:                 0;
+    padding:                0;
+    margin-left:            auto;
+    margin-right:           auto;
+
+    display:                block;
+    float:                  none;
+
+    width:                  95%;
+    height:                 100%;
+}
+
+/* ------------------- Menu Items ------------------- */
+
+.menu-item {
+    font-size:              26px;
+    color:                  #0000ff;
+}
+
+/* ------------------- A BlueLine ------------------- */
+
+hr {
+    height:                 1px;
+    border:                 none;
+    background-color:       #0000ff;
+    color:                  #0000ff;
+}
