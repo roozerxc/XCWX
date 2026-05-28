@@ -1,5 +1,5 @@
 <div id="toc" align="center">
-    <img width="512" height="128" alt="XCWX" src="https://images2.imgbox.com/5b/33/fQnIPUEu_o.gif" style="image-rendering: pixelated;" />
+    <img width="512" height="128" alt="XCWX" src="https://images2.imgbox.com/9f/00/S03d8CsH_o.png" style="image-rendering: pixelated;" />
 </div>
 
 # XCWX - RoozerXC Web eXperience
