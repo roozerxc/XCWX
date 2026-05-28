@@ -12,3 +12,5 @@ A web experience for bedroom hackers. Works on anything that supports modern HTM
 The XCWX project is licensed under the 2-clause BSD license.
 
 Read the license information via the **BSD-2-Clause license** tab on the top, or open the [`LICENSE.md`](LICENSE.md) file.
+
+© 2020-2026 RoozyDB/RoozerXC
