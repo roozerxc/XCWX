@@ -61,7 +61,7 @@ body::before {
     left:                   0;
     width:                  100vw;
     height:                 100vh;
-    background-image:       url("../assets/xcwx-ovr.png");
+    background-image:       url("../assets/textures/xcwx-ovr.png");
     background-blend-mode:  multiply;
     background-repeat:      no-repeat;
     background-size:        100% 100%;
@@ -77,7 +77,7 @@ body {
     color:                  #ffffff;
 
     background:             #000000;
-    background-image:       url("../assets/xcwx-bgc.gif");
+    background-image:       url("../assets/textures/xcwx-bgc.gif");
     background-repeat:      no-repeat;
     background-color:       rgba(0, 0, 0, 0.75);
     background-blend-mode:  darken;

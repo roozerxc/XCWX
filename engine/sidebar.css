@@ -16,11 +16,11 @@
 @font-face {
     font-family: "Lucida Console", monospace;
     src: local("Lucida Console"),
-         url("/assets/fonts/lucon.eot"),
-         url("/assets/fonts/lucon.eot#iefix") format('embedded-opentype'),
-         url("/assets/fonts/lucon.ttf") format("truetype"),
-         url("/assets/fonts/lucon.woff") format("woff"),
-         url("/assets/fonts/lucon.woff2") format("woff2");
+         url("../assets/fonts/lucon.eot"),
+         url("../assets/fonts/lucon.eot#iefix") format('embedded-opentype'),
+         url("../assets/fonts/lucon.ttf") format("truetype"),
+         url("../assets/fonts/lucon.woff") format("woff"),
+         url("../assets/fonts/lucon.woff2") format("woff2");
 }
 
 /* ------------- Custom Scrollbar Color ------------- */
@@ -53,7 +53,7 @@ html, body {
     font-size:              13px;
 
     background:             #000000;
-    background-image:       url("../assets/xcwx-bgs.gif");
+    background-image:       url("../assets/textures/xcwx-bgs.gif");
     background-color:       rgba(0, 0, 0, 0.25);
     background-blend-mode:  darken;
     background-attachment:  fixed;
